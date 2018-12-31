@@ -113,8 +113,8 @@ a:visited { }
 }
 
 .header:before {
-  border-left: 1em solid #32357c;
-  background-color: #ffde84;
+  border-left: 1em solid #ffde84;
+  background-color: #32357c;
   border-right: 1em solid #ff4a74;
   content: "";
   position: absolute;
