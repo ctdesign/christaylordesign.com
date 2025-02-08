@@ -1,0 +1,18 @@
+---
+layout: default
+title: Art
+permalink: /art/
+---
+
+<h2>Art portfolio</h2>
+
+<ul class="image-grid">
+  {% for post in site.art reversed %}
+    <li class="image-grid__item">
+      <a href="{{ post.url }}" class="image-grid__item">
+        <img src="{{post.thumb}}" width="485" height="784" />
+        <h3 class="image-grid__title">{{post.title }}</h3>
+      </a> 
+    </li>
+  {% endfor %}
+</ul>

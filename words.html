@@ -1,0 +1,14 @@
+---
+layout: default
+title: Words
+---
+
+<h1>Words Blog 1</h1>
+
+<ul>
+  {% for post in site.words reversed %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%B %d, %Y" }}
+    </li>
+  {% endfor %}
+</ul>

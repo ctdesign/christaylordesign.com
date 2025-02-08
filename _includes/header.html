@@ -1,15 +1,17 @@
 <header class="header">
     <div class="header__main">
         <div class="logo">
-            <h1 class="logo__type">Chris Taylor</h1>
+            <h1 class="logo__type"><a href="/">Chris  Taylor makes...</a></h1>
             <!-- <p class="logo__sub">User-centred design leader, designer and illustrator</p> -->
         </div>
     </div>
-    <!-- <nav class="header__nav">
+    <nav class="header__nav">
         <ul class="nav nav--h">
-            <li><a href="#">words</a></li>
-            <li><a href="#">art</a></li>
-          <li><a href="#">design</a></li>
+    
+            {% for item in site.data.navigation %}
+                <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+            {% endfor %}
+            
         </ul>
-    </nav> -->
+    </nav>
   </header>
