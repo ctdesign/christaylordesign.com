@@ -5,8 +5,6 @@ date: 2023-06-13 00:00:01
 categories: gov
 ---
 
----
-
 I originally wrote this guidance for people within the User-Centred Design profession in the Home Office.
 
 It's intended to give a pragmatic steer on how to set goals (which are a required part of our performance management process) that are actually meaningful and achievable.
