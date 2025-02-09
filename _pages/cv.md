@@ -1,6 +1,6 @@
 ---
 title: CV
-layout: default
+layout: page
 permalink: /cv/
 ---
 

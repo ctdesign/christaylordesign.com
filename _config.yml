@@ -21,16 +21,53 @@
 title: "Chris Taylor Makes"
 description: "Personal website for Chris Taylor"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://christaylormakes.com
+# url: "" # the base hostname & protocol for your site, e.g. http://christaylormakes.com
 
-# Build settings
+navigation:
+  - title: Home
+    url: /
+  - title: Words
+    url: /words/
+  - title: Art
+    url: /art/
+  - title: Design
+    url: /design/
+  - title: CV
+    url: /cv/
+  - title: About
+    url: /about/
+  - title: Contact
+    url: /contact/
 
-theme: 
-plugins:
-  - jekyll-feed
+collections:
+  words:
+    output: true
+    permalink: /words/:title/
+  art:
+    output: true
+    permalink: /art/:title/
+  design:
+    output: true
+    permalink: /design/:title/
 
-include:
-  - _pages
+defaults:
+  - scope:
+      path: ""
+      type: "words"
+    values:
+      layout: post
+  - scope:
+      path: ""
+      type: "art"
+    values:
+      layout: post
+  - scope:
+      path: ""
+      type: "design"
+    values:
+      layout: post
+
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -40,14 +77,14 @@ include:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
