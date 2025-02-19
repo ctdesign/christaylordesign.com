@@ -1,8 +1,8 @@
 ---
 layout: post
+collection: words
 title: "Setting goals when you work in a delivery team in government"
-date: 2023-06-13 00:00:01 
-categories: gov
+date: 2025-02-19
 ---
 
 I originally wrote this guidance for people within the User-Centred Design profession in the Home Office.

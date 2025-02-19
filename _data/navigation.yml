@@ -1,5 +1,7 @@
 - title: art
   url: /art/
-# - title: words
-#   url: /words/
+- title: words
+  url: /words/
+- title: cv
+  url: /cv/
 

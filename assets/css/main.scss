@@ -107,14 +107,14 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-optical-sizing: auto;
     color: $col-font-heading;
-    font-weight: true;
+    font-weight: normal;
   line-height: 1.15;
 }
 
 h1 { font-weight: 400;
     margin-top: 0;
     font-size: 2.44em;;}
-h2 { font-size: 1.95em; }
+h2 { font-size: 1.85em; }
 h3 { font-size: 1.56em; }
 
 h4,
@@ -153,7 +153,9 @@ a:hover { text-decoration: none}
 a:active { }
 a:visited { }
 
-
+.hr--footer {
+    border-top: 1em solid $col-link;
+}
 
 .lede {
     font-size: 1.95em;
@@ -169,8 +171,12 @@ a:visited { }
 // .no-js .highlight {
 // background-color: #FC6471;
 // padding: 5px;
-
 // }
+
+.highlight {
+    color: $col-theme-accent;
+    display: inline-block;
+}
 
 .header {
   margin-bottom: 1em;
@@ -285,8 +291,6 @@ nav li:last-of-type {
     padding: 1em;
 }
 
-
-
 @media screen and (min-width:700px) {
   html {
     font-size: 20px;
@@ -321,11 +325,23 @@ nav li:last-of-type {
 
 .article-list__title {
     font-size: 1.95em;
+    margin: 0.5em 0 0.5em;
 }
 
 .layout-post .main img {
     max-width: 100%;
 }
+
+.article-list__item {
+    border-bottom: 1px dashed #fff;
+}
+
+.meta {
+    font-size: 0.8em;
+    margin-bottom: 0.25em;
+}
+
+//portfolio image grid
    
 .image-grid {
     display: grid;

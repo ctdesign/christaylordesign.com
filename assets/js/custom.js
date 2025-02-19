@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // }
   
     {
-      // highlight text on homepage
+      // highlight text with class of highlight
       const a1 = annotate($('.highlight'), { type: 'highlight', color: '#FC6471', padding: '5px', multiline: true });
     //   const a2 = annotate($('header span.abox'), { type: 'box', color: '#F44336', padding: 3 });
     //   const a3 = annotate($('header a'), { type: 'underline', color: '#2196F3', padding: 3, strokeWidth: 3 });
