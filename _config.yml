@@ -23,22 +23,6 @@ description: "Personal website for Chris Taylor"
 baseurl: "" # the subpath of your site, e.g. /blog
 # url: "" # the base hostname & protocol for your site, e.g. http://christaylormakes.com
 
-navigation:
-  - title: Home
-    url: /
-  - title: Words
-    url: /words/
-  - title: Art
-    url: /art/
-  - title: Design
-    url: /design/
-  - title: CV
-    url: /cv/
-  - title: About
-    url: /about/
-  - title: Contact
-    url: /contact/
-
 collections:
   words:
     output: true
