@@ -252,14 +252,15 @@ a:visited { }
     margin: 0;
     padding: 0;
 }
-.nav li {
+.header__nav .nav li {
     font-family: "Reenie Beanie", cursive;
     display: inline-block;
     margin-right: 0.5em;
-    font-size: 3em;     
+    font-size: 3em; 
+    margin-bottom: 0;    
 }
 
-nav li:last-of-type {
+.header__nav .nav li:last-of-type {
     margin-right: 0;
 }
 
@@ -301,9 +302,10 @@ nav li:last-of-type {
     max-width: 800px;
   }
 
-  p {
-    // max-width: 28em
-  }
+  ul, ol {
+    padding: 0;
+    margin: 0;
+    }
 
   .header {
     //   text-align: left;
@@ -339,6 +341,19 @@ nav li:last-of-type {
 .meta {
     font-size: 0.8em;
     margin-bottom: 0.25em;
+}
+
+// styling the post articles to be a little more readable
+
+ul, ol {
+    list-style-position: outside;
+    padding: 0 0 0 0.5em;
+    margin: 0;
+
+    li {
+        margin-bottom: 1em;
+        list-style-position: outside;
+    }
 }
 
 //portfolio image grid
