@@ -93,7 +93,7 @@ mins from Kyoto station, so easy to find and then get around and do
 stuff in Kyoto. This was about £125 per night. Worth it thought. Some nights
 we just got some beers from the 7/11 and sat on the balcony.
 
-## Osaka**
+## Osaka
 - Was probably my favourite place, a really different vibe to the other cities. More relaxed. 
 - Floating garden observatory - this was another observation tower but
 he building was so cool it was worth it. We just paid on the day. 
